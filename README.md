@@ -20,39 +20,104 @@ samples, guidance on mobile development, and a full API reference.
   <img src="./img.png" alt="Project Banner" width="100%">
 </p>
 
-# [Project Name] 🎯
+# Mind-sync 🎯
 
-## Basic Details
+##  To find the same minds and enjoy the moments
 
-### Team Name: [Name]
+### Team Name: Unicorn
 
 ### Team Members
-- Member 1: [Name] - [College]
-- Member 2: [Name] - [College]
+- Member 1: Aswathy P J - Government Engineering College Idukki
 
 ### Hosted Project Link
 [mention your project hosted link here]
 
 ### Project Description
-[2-3 lines about what your project does]
+MoodMatch is a fun dual-mode app that balances productivity and play. In Study Mode, it generates a smart study plan, tracks live study time with levels and XP, and even unlocks a “future letter” on a selected date. In Play Mode, it matches students with other players who share the same game interests using intelligent dummy matchmaking.
 
 ### The Problem statement
-[What problem are you solving?]
+Many students struggle to balance academics and social life, often feeling stressed, unmotivated, or disconnected from peers who share similar interests. Existing apps focus only on productivity or only on entertainment, but not both together. There is a need for a unified platform that helps students manage their studies effectively while also connecting with others for recreational activities
 
 ### The Solution
-[How are you solving it?]
+We solve this by creating a dual-mode platform that combines productivity and social engagement in one app.
 
----
+In Study Mode, the app generates a personalized study schedule, tracks live study time with a timer and progress levels (XP system), and includes a “Future Letter” feature that unlocks on a selected date to motivate users.
+
+In Play Mode, the app matches students with others who share similar game interests using smart dummy matchmaking logic, helping them connect and build social interaction.
+
+This way, the app supports both academic growth and mental well-being in a single ecosystem.
+
 
 ## Technical Details
+    Framework: Built using Flutter (Dart) for cross-platform development (Android, Web, Desktop).
 
+    State Management: Uses StatefulWidget and setState() for dynamic UI updates.
+
+    Local Storage: Integrated SharedPreferences to store user data such as XP, study time, schedule, and future letter with unlock date persistence.
+
+    Timer System: Implemented using Dart’s Timer class to track live study sessions and calculate total study duration.
+
+    Matchmaking Logic: Uses dummy dataset filtering logic to match students based on selected game interests.
+
+    UI/UX: Custom themed UI with soft color palette, progress bars, emoji-based status indicators, and dashboard-style layout.
+
+    Navigation: Managed using Navigator.push and MaterialPageRoute for screen transitions between Login, Study Dashboard, and Play Dashboard.
 ### Technologies/Components Used
+💻 Development Framework
+
+    Flutter – Cross-platform UI framework
+
+    Dart – Programming language used to build the app
+
+📦 Packages & Libraries
+
+    shared_preferences – For local data storage (XP, timer data, future letter, schedule)
+
+    material.dart – For UI components and Material Design widgets
+
+⏱ Core Components
+
+    Timer (Dart async library) – To implement live study timer
+
+    Stateful Widgets – For dynamic UI updates
+
+    Navigator & MaterialPageRoute – For screen navigation
+
+🎨 UI Components
+
+    Scaffold
+
+    AppBar
+
+    Cards
+
+    TextField
+
+    DropdownButtonFormField
+
+    LinearProgressIndicator (for status bar)
+
+    ElevatedButton
+
+    ListView
+
+📊 Functional Modules
+
+    Study Planner Logic
+
+    XP & Level System
+
+    Student Matchmaking (Dummy Data Filtering)
+
+    Future Letter Lock/Unlock System
+
+    Live Study Timer with Emoji Status
 
 **For Software:**
-- Languages used: [e.g., JavaScript, Python, Java]
-- Frameworks used: [e.g., React, Django, Spring Boot]
-- Libraries used: [e.g., axios, pandas, JUnit]
-- Tools used: [e.g., VS Code, Git, Docker]
+- Languages used:Dart
+- Frameworks used:Flutter
+- Libraries used:shared_preferences, material.dart (Flutter Material Components), dart:async (Timer)
+- Tools used:VS Code / Android Studio, Flutter SDK, Git, GitHub
 
 **For Hardware:**
 - Main components: [List main components]
@@ -64,25 +129,41 @@ samples, guidance on mobile development, and a full API reference.
 ## Features
 
 List the key features of your project:
-- Feature 1: [Description]
-- Feature 2: [Description]
-- Feature 3: [Description]
-- Feature 4: [Description]
-
+- Feature 1: Dual Mode System (Study Mode & Play Mode) – Allows users to manage academics and also connect with peers for games within one app.
+- Feature 2: Smart Study Planner & XP System – Generates a personalized study schedule with level progression and XP tracking based on study input
+- Feature 3: Live Study Timer with Progress Bar – Tracks real-time study sessions with emoji-based status indicators and total study time analytics.
+- Feature 4: Future Letter Unlock System – Users can write a motivational letter that remains locked and automatically unlocks on a selected future date.
+- Feature 5: Student Matchmaking (Dummy Logic) – Matches students with similar game interests using filtering logic for social engagement.
 ---
 
 ## Implementation
 
-### For Software:
+The application is developed using Flutter and Dart with a modular screen-based structure.
+
+The Study Mode includes schedule generation, XP calculation, and a live study timer implemented using Dart’s Timer.
+
+User data such as study time, level, schedule, and future letter are stored locally using SharedPreferences for persistence.
+
+The Play Mode uses dummy data filtering logic to match students based on selected game interests.
+
+Navigation between screens is handled using Flutter’s Navigator and MaterialPageRoute.
+
+### For Software:The application is built using Flutter (Dart) with a modular screen-based structure (Login, Planner, Study Dashboard, Play Dashboard).
+
+User data such as study schedule, XP, timer progress, and future letter are stored locally using SharedPreferences for persistence.
+
+The live study timer is implemented using Dart’s Timer, and student matchmaking in Play Mode is handled using dummy data filtering logic.
+
+Navigation between screens is managed using Navigator and MaterialPageRoute.
 
 #### Installation
 ```bash
-[Installation commands - e.g., npm install, pip install -r requirements.txt]
+flutter pub get
 ```
 
 #### Run
 ```bash
-[Run commands - e.g., npm start, python app.py]
+flutter run
 ```
 
 ### For Hardware:
@@ -101,7 +182,7 @@ List the key features of your project:
 
 #### Screenshots (Add at least 3)
 
-![Screenshot1](Add screenshot 1 here with proper name)
+![alt text](<Screenshot 2026-02-21 200137.png>)(Add screenshot 1 here with proper name)
 *Add caption explaining what this shows*
 
 ![Screenshot2](Add screenshot 2 here with proper name)
