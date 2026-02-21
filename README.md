@@ -30,7 +30,8 @@ samples, guidance on mobile development, and a full API reference.
 - Member 1: Aswathy P J - Government Engineering College Idukki
 
 ### Hosted Project Link
-[mention your project hosted link here]
+ https://aswathypj27.github.io/Mind-sync/
+ 
 
 ### Project Description
 MoodMatch is a fun dual-mode app that balances productivity and play. In Study Mode, it generates a smart study plan, tracks live study time with levels and XP, and even unlocks a “future letter” on a selected date. In Play Mode, it matches students with other players who share the same game interests using intelligent dummy matchmaking.
