@@ -182,7 +182,7 @@ flutter run
 
 #### Screenshots (Add at least 3)
 
-![alt text](<Screenshot 2026-02-21 200137.png>)(Add screenshot 1 here with proper name)
+![login image ](<login.png>)(Add screenshot 1 here with proper name)
 *Add caption explaining what this shows*
 
 ![Screenshot2](Add screenshot 2 here with proper name)
