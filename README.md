@@ -182,14 +182,22 @@ flutter run
 
 #### Screenshots (Add at least 3)
 
-![login image ](<login.png>)(Add screenshot 1 here with proper name)
+![login image ](<login.png>)
 *Add caption explaining what this shows*
 
-![Screenshot2](Add screenshot 2 here with proper name)
+![mode selection](mode.png)
 *Add caption explaining what this shows*
 
-![Screenshot3](Add screenshot 3 here with proper name)
+![study plan creation and time tracking](studyplan.png)
 *Add caption explaining what this shows*
+
+![letter to the future which will unlock when reaches the future date](future_letter.png)
+
+![study plan generation](studyplan.png)
+
+![we can select play mode](play_mode.png)
+
+![find play match](play_match.png)
 
 #### Diagrams
 
