@@ -1,5 +1,5 @@
 <<<<<<< HEAD
-# studysphere2
+# Mind-sync
 
 A new Flutter project.
 
